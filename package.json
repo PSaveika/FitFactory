@@ -1,0 +1,14 @@
+{
+  "name": "gym_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o app/css/ --recursive --output-style compressed"
+  },
+  "author": "Povilas Saveika",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
